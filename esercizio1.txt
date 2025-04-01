@@ -1,0 +1,27 @@
+Ipotizzando un sistema di gioco con combattimento a turni, ipotizzare un personaggio utilizzando:
+
+- 5 attributes
+- definizione degli states di quegli attributs
+- 5 actions
+
+
+
+Object:
+ - Personaggio X
+
+Attributes:	State:
+ - Salute	-> Vivo: PF tra 30/100 - Fin di vita: 30/0 - Morto: 0/-10  
+ - Forza	-> 12p: +2 al tiro per colpire - 14p: +4 e cosi via
+ - Agilità	-> Capacità di schivare gli attacchi: 12p: 50% di schivare l'attacco - 14p: 60% di schivare l'attacco ecc..
+ - Intelligenza	-> 12p +2 al tiro per colpire con gli attacchi magici (multipli di 2)
+ - Difesa	-> 12p: +2 alla classe armatura (il punteggio che il nemico deve fare per rendere possibile l'attacco) multipli di 2
+
+Actions:
+ - Fendente: (Attacco)
+ - Fendente Poderoso (Attacco)
+ - Difesa assoluta: (Difesa)
+ - Lanciare Incantesimi (Intelligenza)
+ - Muoversi Silenziosamente
+
+
+
